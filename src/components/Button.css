@@ -1,5 +1,33 @@
 .calcButton {
-    width: 25%;
-    float: left;
-    height: 100%;
+  width: 25%;
+  float: left;
+  font-size: 5em;
+  background-color: lightgray;
+  height: 100%;
+}
+
+button:hover {
+  border: 2px solid black;
+  color: red;
+  cursor: pointer;
+}
+.equal {
+  width: 50%;
+  background-color: #757575;
+}
+
+.zero {
+  width: 50%;
+  background-color: lightgray;
+}
+
+.clear {
+  width: 50%;
+  background-color: red;
+}
+button.clear:hover {
+  color: black;
+}
+.dark {
+  background-color: #757575;
 }
